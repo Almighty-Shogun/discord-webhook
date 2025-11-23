@@ -1,5 +1,5 @@
 # DiscordWebhook
-Personal implementation of Discord webhooks for PHP
+Personal implementation of Discord webhooks for PHP.
 
 ## 📃 Prerequisites
 - **[PHP](https://www.php.net/)**: >= v8.3
@@ -8,13 +8,13 @@ Personal implementation of Discord webhooks for PHP
 ## 💻 Installation
 
 ### Step 1
-Install the package via composer:
+Install the library via composer:
 ```shell
 composer require almighty-shogun/discord-webhook
 ```
 
 ### Step 2
-Use the package in your project.
+Use the library in your project.
 
 **Using the classes**
 ```php
