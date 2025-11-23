@@ -1,0 +1,36 @@
+{
+    "name": "almighty-shogun/discord-webhook",
+    "description": "Personal implementation of Discord webhooks for PHP",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "type": "library",
+    "keywords": [
+        "discord",
+        "webhook",
+        "discord-webhook"
+    ],
+    "autoload": {
+        "psr-4": {
+            "DiscordWebhook\\": "src"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Almighty-Shogun",
+            "email": "alm1ghtyshogun1998@gmail.com",
+            "homepage": "https://shogun.ms"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "8.3"
+        }
+    },
+    "require": {
+        "ext-curl": "*"
+    }
+}
